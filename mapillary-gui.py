@@ -12,6 +12,10 @@ from ttk import *
  
 import os
 
+
+lib_path = os.path.abspath(os.path.join('..', 'mapillary_tools', 'python'))
+sys.path.append(lib_path)
+
 ######## 26-10-2015 ######
 import Tkinter as tk
 ######## 26-10-2015 ENDE ######
